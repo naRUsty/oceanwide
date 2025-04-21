@@ -162,19 +162,19 @@ export default function Home() {
             </div>
 
             <div className="mx-auto max-w-5xl py-8">
-              <Tabs defaultValue="tissues" className="w-full">
+              <Tabs defaultValue="towels" className="w-full">
                 <TabsList className="grid w-full grid-cols-3 mb-8 bg-navy-700/30">
-                  <TabsTrigger
-                    value="tissues"
-                    className="data-[state=active]:bg-amber-400 data-[state=active]:text-navy-900 text-gray-100 flex items-center justify-center"
-                  >
-                    Tissue Products
-                  </TabsTrigger>
                   <TabsTrigger
                     value="towels"
                     className="data-[state=active]:bg-amber-400 data-[state=active]:text-navy-900 text-gray-100 flex items-center justify-center"
                   >
                     Towel Products
+                  </TabsTrigger>
+                  <TabsTrigger
+                    value="tissues"
+                    className="data-[state=active]:bg-amber-400 data-[state=active]:text-navy-900 text-gray-100 flex items-center justify-center"
+                  >
+                    Tissue Products
                   </TabsTrigger>
                   <TabsTrigger
                     value="napkins"
@@ -183,86 +183,6 @@ export default function Home() {
                     Napkin Products
                   </TabsTrigger>
                 </TabsList>
-
-                <TabsContent value="tissues" className="mt-0">
-                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    <div className="flex flex-col justify-center space-y-4 group">
-                      <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
-                        <Image
-                          src="/facial-tissues-dual-black-bg.jpg"
-                          width={240}
-                          height={240}
-                          alt="Facial Tissues - Box and Soft Pack Varieties"
-                          className="rounded-lg product-image"
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <h3 className="text-xl font-bold text-amber-100">Facial Tissue</h3>
-                        <p className="text-sm text-gray-100">
-                          Soft and absorbent facial tissues in attractive packaging, ideal for homes, hotels, and
-                          offices.
-                        </p>
-                      </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
-                    </div>
-                    <div className="flex flex-col justify-center space-y-4 group">
-                      <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
-                        <Image
-                          src="/toilet-paper-rolls-new.jpg"
-                          width={240}
-                          height={240}
-                          alt="Premium Toilet Paper Rolls"
-                          className="rounded-lg product-image"
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <h3 className="text-xl font-bold text-amber-100">Toilet Paper Rolls</h3>
-                        <p className="text-sm text-gray-100">
-                          Premium quality toilet paper rolls in various ply options, perfect for hotels, offices, and
-                          public facilities.
-                        </p>
-                      </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
-                    </div>
-                    <div className="flex flex-col justify-center space-y-4 group">
-                      <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
-                        <Image
-                          src="/jumbo-toilet-rolls-new.jpg"
-                          width={240}
-                          height={240}
-                          alt="Jumbo Toilet Paper Rolls"
-                          className="rounded-lg product-image"
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <h3 className="text-xl font-bold text-amber-100">Jumbo Toilet Rolls</h3>
-                        <p className="text-sm text-gray-100">
-                          Large-capacity toilet paper rolls designed for high-traffic commercial restrooms and public
-                          facilities.
-                        </p>
-                      </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
-                    </div>
-                  </div>
-                </TabsContent>
 
                 <TabsContent value="towels" className="mt-0">
                   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -480,6 +400,86 @@ export default function Home() {
                         <p className="text-sm text-gray-100">
                           Perforated roll bed sheets for medical facilities, spas, and hospitality applications offering
                           easy dispensing and hygiene.
+                        </p>
+                      </div>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
+                      >
+                        Learn More
+                      </Button>
+                    </div>
+                  </div>
+                </TabsContent>
+
+                <TabsContent value="tissues" className="mt-0">
+                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <div className="flex flex-col justify-center space-y-4 group">
+                      <div className="flex h-[280px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
+                        <Image
+                          src="/facial-tissues-dual-black-bg.jpg"
+                          width={240}
+                          height={280}
+                          alt="Facial Tissues - Box and Soft Pack Varieties"
+                          className="rounded-lg product-image"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-xl font-bold text-amber-100">Facial Tissue</h3>
+                        <p className="text-sm text-gray-100">
+                          Soft and absorbent facial tissues in attractive packaging, ideal for homes, hotels, and
+                          offices.
+                        </p>
+                      </div>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
+                      >
+                        Learn More
+                      </Button>
+                    </div>
+                    <div className="flex flex-col justify-center space-y-4 group">
+                      <div className="flex h-[280px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
+                        <Image
+                          src="/toilet-paper-rolls-new.jpg"
+                          width={240}
+                          height={280}
+                          alt="Premium Toilet Paper Rolls"
+                          className="rounded-lg product-image"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-xl font-bold text-amber-100">Toilet Paper Rolls</h3>
+                        <p className="text-sm text-gray-100">
+                          Premium quality toilet paper rolls in various ply options, perfect for hotels, offices, and
+                          public facilities.
+                        </p>
+                      </div>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
+                      >
+                        Learn More
+                      </Button>
+                    </div>
+                    <div className="flex flex-col justify-center space-y-4 group">
+                      <div className="flex h-[280px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
+                        <Image
+                          src="/jumbo-toilet-rolls-new.jpg"
+                          width={240}
+                          height={280}
+                          alt="Jumbo Toilet Paper Rolls"
+                          className="rounded-lg product-image"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-xl font-bold text-amber-100">Jumbo Toilet Rolls</h3>
+                        <p className="text-sm text-gray-100">
+                          Large-capacity toilet paper rolls designed for high-traffic commercial restrooms and public
+                          facilities.
                         </p>
                       </div>
                       <Button
