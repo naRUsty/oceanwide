@@ -189,31 +189,6 @@ export default function Home() {
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/paper-towels.jpg"
-                          width={240}
-                          height={240}
-                          alt="C-Fold Towels"
-                          className="rounded-lg product-image"
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <h3 className="text-xl font-bold text-amber-100">C-Fold Towels</h3>
-                        <p className="text-sm text-gray-100">
-                          High-quality C-fold hand towels designed for efficient dispensing in washrooms and commercial
-                          settings.
-                        </p>
-                      </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
-                    </div>
-                    <div className="flex flex-col justify-center space-y-4 group">
-                      <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
-                        <Image
                           src="/n-fold-towels-new.jpg"
                           width={240}
                           height={240}
@@ -363,6 +338,28 @@ export default function Home() {
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
+                          src="/c-fold-towels-new.jpg"
+                          width={240}
+                          height={240}
+                          alt="C-Fold Towels"
+                          className="rounded-lg product-image"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-xl font-bold text-amber-100">C-Fold Towels</h3>
+                        <p className="text-sm text-gray-100">
+                          High-quality C-fold hand towels designed for efficient dispensing in washrooms and commercial
+                          settings.
+                        </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 32-40gsm)/TAD(white, 25gsm)/Recycled(white/kraft/blue, 32-40gsm);
+                          1ply, 10"*11"/12"/13"(255mm*280/305/330mm)
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-col justify-center space-y-4 group">
+                      <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
+                        <Image
                           src="/standing-paper-towel-roll.png"
                           width={240}
                           height={240}
@@ -388,18 +385,18 @@ export default function Home() {
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/disposable-bed-sheets-roll.jpg"
+                          src="/disposable-bed-sheets-new.png"
                           width={240}
                           height={240}
-                          alt="Disposable Bed Sheets Roll"
+                          alt="Disposable Bed Sheets with Massage Table"
                           className="rounded-lg product-image"
                         />
                       </div>
                       <div className="space-y-2">
                         <h3 className="text-xl font-bold text-amber-100">Disposable Bed Sheets</h3>
                         <p className="text-sm text-gray-100">
-                          Perforated roll bed sheets for medical facilities, spas, and hospitality applications offering
-                          easy dispensing and hygiene.
+                          High-quality disposable bed sheets in convenient roll format for medical facilities, massage
+                          tables, spas, and hospitality applications offering superior hygiene and comfort.
                         </p>
                       </div>
                       <Button
@@ -415,31 +412,6 @@ export default function Home() {
 
                 <TabsContent value="tissues" className="mt-0">
                   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    <div className="flex flex-col justify-center space-y-4 group">
-                      <div className="flex h-[280px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
-                        <Image
-                          src="/facial-tissues-dual-black-bg.jpg"
-                          width={240}
-                          height={280}
-                          alt="Facial Tissues - Box and Soft Pack Varieties"
-                          className="rounded-lg product-image"
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <h3 className="text-xl font-bold text-amber-100">Facial Tissue</h3>
-                        <p className="text-sm text-gray-100">
-                          Soft and absorbent facial tissues in attractive packaging, ideal for homes, hotels, and
-                          offices.
-                        </p>
-                      </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
-                    </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[280px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
@@ -480,6 +452,31 @@ export default function Home() {
                         <p className="text-sm text-gray-100">
                           Large-capacity toilet paper rolls designed for high-traffic commercial restrooms and public
                           facilities.
+                        </p>
+                      </div>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
+                      >
+                        Learn More
+                      </Button>
+                    </div>
+                    <div className="flex flex-col justify-center space-y-4 group">
+                      <div className="flex h-[280px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
+                        <Image
+                          src="/facial-tissues-dual-black-bg.jpg"
+                          width={240}
+                          height={280}
+                          alt="Mint Green Facial Tissue Box"
+                          className="rounded-lg product-image"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-xl font-bold text-amber-100">Facial Tissue</h3>
+                        <p className="text-sm text-gray-100">
+                          Soft and absorbent facial tissues in attractive packaging, ideal for homes, hotels, and
+                          offices.
                         </p>
                       </div>
                       <Button
@@ -558,8 +555,8 @@ export default function Home() {
                       <div className="space-y-2">
                         <h3 className="text-xl font-bold text-amber-100">Interfold Napkins</h3>
                         <p className="text-sm text-gray-100">
-                          Space-saving interfold napkins designed for efficient dispensing in restaurants, cafes, and
-                          food service establishments.
+                          Space-saving V-fold napkins designed for efficient dispensing in restaurants, cafes, and food
+                          service establishments.
                         </p>
                       </div>
                       <Button
