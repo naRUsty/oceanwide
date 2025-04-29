@@ -203,8 +203,8 @@ export default function Home() {
                           washrooms.
                         </p>
                         <p className="text-xs text-amber-200 mt-1">
-                          Customization: Virgin(white, 32-42gsm/quilted 16-20gsm)/Recycled(white/kraft/blue,
-                          32-42gsm/quilted 16-20gsm)/TAD(white, 28gsm); 1ply, 1/3fold,
+                          Customization: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue,
+                          1ply 32-42gsm/2ply-quilted 16-20gsm)/TAD(white, 1ply 28gsm); 1/3fold,
                           9/9.25"8.86"/9"/9.25"(230/240mm225/230/235mm)
                         </p>
                       </div>
@@ -225,8 +225,8 @@ export default function Home() {
                           Economical singlefold paper towels that offer reliable performance for high-traffic restrooms.
                         </p>
                         <p className="text-xs text-amber-200 mt-1">
-                          Customization: Virgin(white, 32-38gsm)/Recycled(white/kraft/blue, 34-42gsm)/TAD(white, 28gsm);
-                          1ply, 1/2fold, 9"*10.23"(230mm*260mm)
+                          Customization: Virgin(white, 1ply 32-38gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue,
+                          1ply 34-42gsm/2ply quilted 16-20gsm)/TAD(white, 28gsm); 1/2fold, 9"*10.23"(230mm*260mm)
                         </p>
                       </div>
                     </div>
@@ -247,9 +247,10 @@ export default function Home() {
                           drying.
                         </p>
                         <p className="text-xs text-amber-200 mt-1">
-                          Customization: Virgin(white, 32-42gsm)/Recycled(white/kraft/blue, 34-42gsm)/TAD(white, 28gsm);
-                          1ply, 7.76/8/10"*600/800y(197/203/254mm*183/243.8m), core3.8/4/4.2/5.1cm, y cut/1 cut, with
-                          plastic tub.
+                          Customization: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue,
+                          1ply 34-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm);
+                          7.76/8/10"*600/800y(197/203/254mm*183/243.8m), core3.8/4/4.2/5.1cm, y cut/1 cut, with plastic
+                          tub.
                         </p>
                       </div>
                     </div>
@@ -270,7 +271,7 @@ export default function Home() {
                           reduced waste.
                         </p>
                         <p className="text-xs text-amber-200 mt-1">
-                          Customization: Virgin(white, 1ply 25-40gsm/2ply 16-20gsm);
+                          Customization: Virgin(white, 1ply 25-40gsm/2ply-quilted 16-20gsm);
                           width7.28/7.87/8"*length10"(185/200/203mm*254mm), 600/720/800sheets, core5.1/6/7.6cm.
                         </p>
                       </div>
@@ -286,14 +287,14 @@ export default function Home() {
                         />
                       </div>
                       <div className="space-y-2">
-                        <h3 className="text-xl font-bold text-amber-100">4-Fold Quilted Towels</h3>
+                        <h3 className="text-xl font-bold text-amber-100">4-Fold Towels</h3>
                         <p className="text-sm text-gray-100">
                           Premium quilted towels with enhanced absorbency and softness for upscale washrooms and
                           facilities.
                         </p>
                         <p className="text-xs text-amber-200 mt-1">
-                          Customization: Virgin(white, 16-20gsm)/Recycled(white/kraft/blue, 16-20gsm); 2ply glued,
-                          1/4fold, 9.25"*8.86/9/9.25"(240mm*225/230/235mm)
+                          Customization: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue,
+                          1ply 32-42gsm/2ply-quilted 16-20gsm); 1/4fold, 9.25"*8.86/9/9.25"(240mm*225/230/235mm)
                         </p>
                       </div>
                     </div>
@@ -314,8 +315,8 @@ export default function Home() {
                           environments.
                         </p>
                         <p className="text-xs text-amber-200 mt-1">
-                          Customization: Virgin(white, 32-42gsm)/Recycled(white/kraft/blue, 32-42gsm); 1ply, 1/5fold,
-                          9.84"*7.48"(250mm*190mm)
+                          Customization: Virgin(white, 32-42gsm)/Recycled(white/kraft/blue, 32-42gsm)/TAD(white, 1ply
+                          28gsm); 1ply, 1/5fold, 9.84"*7.48"(250mm*190mm)
                         </p>
                       </div>
                     </div>
@@ -336,8 +337,8 @@ export default function Home() {
                           settings.
                         </p>
                         <p className="text-xs text-amber-200 mt-1">
-                          Customization: Virgin(white, 32-40gsm)/TAD(white, 28gsm)/Recycled(white/kraft/blue, 32-40gsm);
-                          1ply, 10"*11.02"/12"/13"(255mm280/305/330mm)
+                          Customization: Virgin(white, 1ply 32-40gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue,
+                          1ply 32-40gsm/2ply-quilted 16-20gsm)/TAD(white, 28gsm); 10"*11.02"/12"/13"(255mm280/305/330mm)
                         </p>
                       </div>
                     </div>
@@ -379,8 +380,8 @@ export default function Home() {
                           tables, spas, and hospitality applications offering superior hygiene and comfort.
                         </p>
                         <p className="text-xs text-amber-200 mt-1">
-                          Customization: Virgin(white, 20gsm); 2ply glued, 37cm(width)*49cm(height), perforated in
-                          135sheets, core45mm.
+                          Customization: Virgin(white, 1ply 42gsm/2ply-glued 20gsm); 37cm(width)*49cm(height),
+                          perforated in 135sheets, core45mm.
                         </p>
                       </div>
                     </div>
@@ -485,10 +486,10 @@ export default function Home() {
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/dinner-napkins-new.jpg"
+                          src="/dinner-napkins-2.jpg"
                           width={240}
                           height={240}
-                          alt="Premium Dinner Napkins"
+                          alt="Premium White Dinner Napkins"
                           className="rounded-lg product-image"
                         />
                       </div>
@@ -519,14 +520,11 @@ export default function Home() {
                           Practical medium-sized napkins perfect for cafes, lunch restaurants, and casual dining
                           settings.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 16-20gsm); 2ply, 1/4fold, 11.81"*11.81"(300mm*300mm) or
+                          15.75"*15.75"(400mm*400mm)
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-4 shadow-md group-hover:shadow-lg transition-all">
@@ -544,14 +542,11 @@ export default function Home() {
                           Space-saving V-fold napkins designed for efficient dispensing in restaurants, cafes, and food
                           service establishments.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 1ply 32-38gsm/quilted 2ply 16-20gsm); 1/2fold,
+                          7.87/8.27/8,86"*6.3/6.5"(200/210/225mm*160/165mm)
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                   </div>
                 </TabsContent>
