@@ -202,14 +202,12 @@ export default function Home() {
                           Premium N-fold paper towels that provide excellent absorbency and strength for commercial
                           washrooms.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 32-42gsm/quilted 16-20gsm)/Recycled(white/kraft/blue,
+                          32-42gsm/quilted 16-20gsm)/TAD(white, 28gsm); 1ply, 1/3fold,
+                          9/9.25"8.86"/9"/9.25"(230/240mm225/230/235mm)
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
@@ -226,14 +224,11 @@ export default function Home() {
                         <p className="text-sm text-gray-100">
                           Economical singlefold paper towels that offer reliable performance for high-traffic restrooms.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 32-38gsm)/Recycled(white/kraft/blue, 34-42gsm)/TAD(white, 28gsm);
+                          1ply, 1/2fold, 9"*10.23"(230mm*260mm)
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
@@ -251,14 +246,12 @@ export default function Home() {
                           Durable hardwound roll towels ideal for high-volume environments requiring continuous hand
                           drying.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 32-42gsm)/Recycled(white/kraft/blue, 34-42gsm)/TAD(white, 28gsm);
+                          1ply, 7.76/8/10"*600/800y(197/203/254mm*183/243.8m), core3.8/4/4.2/5.1cm, y cut/1 cut, with
+                          plastic tub.
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
@@ -276,14 +269,11 @@ export default function Home() {
                           Convenient center-pull towel rolls for high-traffic areas, providing easy dispensing and
                           reduced waste.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 1ply 25-40gsm/2ply 16-20gsm);
+                          width7.28/7.87/8"*length10"(185/200/203mm*254mm), 600/720/800sheets, core5.1/6/7.6cm.
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
@@ -301,14 +291,11 @@ export default function Home() {
                           Premium quilted towels with enhanced absorbency and softness for upscale washrooms and
                           facilities.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 16-20gsm)/Recycled(white/kraft/blue, 16-20gsm); 2ply glued,
+                          1/4fold, 9.25"*8.86/9/9.25"(240mm*225/230/235mm)
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
@@ -326,14 +313,11 @@ export default function Home() {
                           Luxurious 5-fold towels offering superior absorbency and comfort for premium hospitality
                           environments.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 32-42gsm)/Recycled(white/kraft/blue, 32-42gsm); 1ply, 1/5fold,
+                          9.84"*7.48"(250mm*190mm)
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
@@ -352,8 +336,8 @@ export default function Home() {
                           settings.
                         </p>
                         <p className="text-xs text-amber-200 mt-1">
-                          Customization: Virgin(white, 32-40gsm)/TAD(white, 25gsm)/Recycled(white/kraft/blue, 32-40gsm);
-                          1ply, 10"*11"/12"/13"(255mm*280/305/330mm)
+                          Customization: Virgin(white, 32-40gsm)/TAD(white, 28gsm)/Recycled(white/kraft/blue, 32-40gsm);
+                          1ply, 10"*11.02"/12"/13"(255mm280/305/330mm)
                         </p>
                       </div>
                     </div>
@@ -373,14 +357,10 @@ export default function Home() {
                           Strong and absorbent kitchen towels perfect for food preparation, cleaning, and spill
                           management.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 12.5-16gsm); 2ply, other details based on customer requirements.
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
@@ -398,14 +378,11 @@ export default function Home() {
                           High-quality disposable bed sheets in convenient roll format for medical facilities, massage
                           tables, spas, and hospitality applications offering superior hygiene and comfort.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 20gsm); 2ply glued, 37cm(width)*49cm(height), perforated in
+                          135sheets, core45mm.
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                   </div>
                 </TabsContent>
@@ -428,14 +405,11 @@ export default function Home() {
                           Premium quality toilet paper rolls in various ply options, perfect for hotels, offices, and
                           public facilities.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 12.5-15gsm)/Recycled(white/kraft/blue, 12.5-15gsm); 2ply/4ply,
+                          width4"*length3.75"(102mm*95mm), 450/550/600/1000sheets, core 1.9cm(small core)/4/4.2cm.
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[280px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
@@ -453,14 +427,11 @@ export default function Home() {
                           Large-capacity toilet paper rolls designed for high-traffic commercial restrooms and public
                           facilities.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 12.5-15gsm)/Recycled(white/kraft/blue, 12.5-15gsm); 2ply,
+                          3.3/3.5"(84mm/89mm)*600/800/1000', core 1.9cm(small core)/7.6/8.4cm.
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[280px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
@@ -478,14 +449,11 @@ export default function Home() {
                           Soft and absorbent facial tissues in attractive packaging, ideal for homes, hotels, and
                           offices.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 16-36gsm); 2ply, 1/2fold, 7.87"*7.48"(200mm*190mm), 100sheets, in
+                          case or plastic
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
                     </div>
                   </div>
                 </TabsContent>
@@ -503,19 +471,37 @@ export default function Home() {
                         />
                       </div>
                       <div className="space-y-2">
-                        <h3 className="text-xl font-bold text-amber-100">Dinner Napkins</h3>
+                        <h3 className="text-xl font-bold text-amber-100">Dinner Napkins(1)</h3>
                         <p className="text-sm text-gray-100">
                           High-quality dinner napkins perfect for restaurants, hotels, and catering services in various
                           colors and designs.
                         </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 12.5-16gsm); 2ply, 1/8fold, 14.17/14.96"*16.54"(360/380mm*420mm),
+                          or 16.93"*16.93"(430mm*430mm)
+                        </p>
                       </div>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="bg-ocean-700 text-gray-100 border-ocean-600 hover:bg-ocean-600"
-                      >
-                        Learn More
-                      </Button>
+                    </div>
+                    <div className="flex flex-col justify-center space-y-4 group">
+                      <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
+                        <Image
+                          src="/dinner-napkins-new.jpg"
+                          width={240}
+                          height={240}
+                          alt="Premium Dinner Napkins"
+                          className="rounded-lg product-image"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-xl font-bold text-amber-100">Dinner Napkins(2)</h3>
+                        <p className="text-sm text-gray-100">
+                          Premium dinner napkins with elegant design and superior absorbency, ideal for upscale dining
+                          establishments and special events.
+                        </p>
+                        <p className="text-xs text-amber-200 mt-1">
+                          Customization: Virgin(white, 16-20gsm); 2ply, 1/8fold, 15.75"*15.75"(400mm*400mm)
+                        </p>
+                      </div>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 group">
                       <div className="flex h-[240px] items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-4 shadow-md group-hover:shadow-lg transition-all">
