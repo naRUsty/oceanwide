@@ -10,6 +10,15 @@ export default function ProductCatalog() {
     // Set up print-specific adjustments
     const handleBeforePrint = () => {
       document.body.classList.add("print-mode")
+
+      // Force high-resolution images for print
+      const images = document.querySelectorAll("img")
+      images.forEach((img) => {
+        img.setAttribute("loading", "eager")
+        if (img.classList.contains("print-optimize")) {
+          img.style.objectFit = "contain"
+        }
+      })
     }
 
     const handleAfterPrint = () => {
@@ -26,12 +35,16 @@ export default function ProductCatalog() {
   }, [])
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen print:bg-white">
       {/* Poster Header */}
-      <div className="bg-navy-800 text-white py-8 px-6 text-center print:py-6">
+      <div className="bg-navy-800 text-white py-8 px-6 text-center print:py-6 print:bg-navy-800">
         <Wordmark size="lg" />
-        <h1 className="text-4xl font-bold mt-4 text-amber-100 print:text-3xl">Complete Product Catalog</h1>
-        <p className="text-xl mt-2 text-gray-100 print:text-lg">Premium Tissue & Paper Products for Your Business</p>
+        <h1 className="text-4xl font-bold mt-4 text-amber-100 print:text-3xl print:text-amber-100">
+          Complete Product Catalog
+        </h1>
+        <p className="text-xl mt-2 text-gray-100 print:text-lg print:text-gray-100">
+          Premium Tissue & Paper Products for Your Business
+        </p>
       </div>
 
       <div className="container mx-auto p-6 print:p-4">
@@ -39,7 +52,7 @@ export default function ProductCatalog() {
         <div className="print:flex print:flex-row print:flex-wrap print:justify-between">
           {/* Towel Products */}
           <div className="col-span-full mb-6 print:w-full">
-            <h2 className="text-3xl font-bold text-navy-800 border-b-2 border-amber-400 pb-2 mb-6 print:text-2xl">
+            <h2 className="text-3xl font-bold text-navy-800 border-b-2 border-amber-400 pb-2 mb-6 print:text-2xl print:border-amber-400">
               Towel Products
             </h2>
           </div>
@@ -47,17 +60,17 @@ export default function ProductCatalog() {
           {/* Products in a grid that becomes two columns in print */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 print:grid-cols-2 print:gap-4">
             {/* N-Fold Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/n-fold-towels-new.jpg"
                   width={400}
                   height={400}
                   alt="N-Fold Towels"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">N-Fold Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
@@ -68,17 +81,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Singlefold Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/singlefold-towels-new.jpg"
                   width={400}
                   height={400}
                   alt="Singlefold Towels"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Singlefold Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
@@ -88,17 +101,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Hardwound Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/hardwound-towels-new.jpg"
                   width={400}
                   height={400}
                   alt="Hardwound Towels"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Hardwound Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
@@ -109,17 +122,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Center Pull Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/center-pull-towels-bulk.jpg"
                   width={400}
                   height={400}
                   alt="Center Pull Towels"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Center Pull Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
@@ -130,17 +143,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* 4-Fold Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/4-fold-towels-new.jpg"
                   width={400}
                   height={400}
                   alt="4-Fold Towels"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">4-Fold Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
@@ -151,17 +164,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* 5-Fold Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/5-fold-towels-new.jpg"
                   width={400}
                   height={400}
                   alt="5-Fold Towels"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">5-Fold Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
@@ -171,17 +184,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* C-Fold Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/c-fold-towels-new.jpg"
                   width={400}
                   height={400}
                   alt="C-Fold Towels"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">C-Fold Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
@@ -191,17 +204,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Kitchen Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/standing-paper-towel-roll.png"
                   width={400}
                   height={400}
                   alt="Kitchen Towels"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Kitchen Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 12.5-16gsm); 2ply, other details based on customer requirements.
@@ -210,17 +223,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Disposable Bed Sheets */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/disposable-bed-sheets-new.png"
                   width={400}
                   height={400}
                   alt="Disposable Bed Sheets"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Disposable Bed Sheets</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 42gsm/2ply-glued 20gsm); width37cm*length49cm, perforated in 135sheets,
@@ -232,24 +245,24 @@ export default function ProductCatalog() {
 
           {/* Tissue Products */}
           <div className="col-span-full mt-8 mb-6 print:w-full print:mt-6">
-            <h2 className="text-3xl font-bold text-navy-800 border-b-2 border-amber-400 pb-2 mb-6 print:text-2xl">
+            <h2 className="text-3xl font-bold text-navy-800 border-b-2 border-amber-400 pb-2 mb-6 print:text-2xl print:border-amber-400">
               Tissue Products
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 print:grid-cols-2 print:gap-4">
             {/* Toilet Paper Rolls */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/toilet-paper-rolls-new.jpg"
                   width={400}
                   height={400}
                   alt="Toilet Paper Rolls"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Toilet Paper Rolls</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 12.5-15gsm)/Recycled(white/kraft/blue, 12.5-15gsm); 2ply/4ply,
@@ -259,17 +272,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Jumbo Toilet Rolls */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/jumbo-toilet-rolls-new.jpg"
                   width={400}
                   height={400}
                   alt="Jumbo Toilet Rolls"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Jumbo Toilet Rolls</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 12.5-15gsm)/Recycled(white/kraft/blue, 12.5-15gsm); 2ply,
@@ -279,17 +292,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Facial Tissue */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/facial-tissues-dual-black-bg.jpg"
                   width={400}
                   height={400}
                   alt="Facial Tissue"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Facial Tissue</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 16-36gsm); 2ply, 1/2fold, 7.87"*7.48"(200mm*190mm), 100sheets, in case or
@@ -301,24 +314,24 @@ export default function ProductCatalog() {
 
           {/* Napkin Products */}
           <div className="col-span-full mt-8 mb-6 print:w-full print:mt-6">
-            <h2 className="text-3xl font-bold text-navy-800 border-b-2 border-amber-400 pb-2 mb-6 print:text-2xl">
+            <h2 className="text-3xl font-bold text-navy-800 border-b-2 border-amber-400 pb-2 mb-6 print:text-2xl print:border-amber-400">
               Napkin Products
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 print:grid-cols-2 print:gap-4">
             {/* Dinner Napkins(1) */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/dinner-napkins-new.jpg"
                   width={400}
                   height={400}
                   alt="Dinner Napkins(1)"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Dinner Napkins(1)</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 12.5-16gsm); 2ply, 1/8fold, 14.17/14.96"*16.54"(360/380mm*420mm), or
@@ -328,17 +341,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Dinner Napkins(2) */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/dinner-napkins-2.jpg"
                   width={400}
                   height={400}
                   alt="Dinner Napkins(2)"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Dinner Napkins(2)</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 16-20gsm); 2ply, 1/8fold, 15.75"*15.75"(400mm*400mm)
@@ -347,17 +360,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Lunch Napkins */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/lunch-napkins-new.jpg"
                   width={400}
                   height={400}
                   alt="Lunch Napkins"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Lunch Napkins</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 16-20gsm); 2ply, 1/4fold, 11.81"*11.81"(300mm*300mm) or
@@ -367,17 +380,17 @@ export default function ProductCatalog() {
             </div>
 
             {/* Interfold Napkins */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200">
-              <div className="h-64 overflow-hidden print:h-48">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
                   src="/interfold-napkins-new.jpg"
                   width={400}
                   height={400}
                   alt="Interfold Napkins"
-                  className="w-full h-full object-cover print:object-contain"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
-              <div className="p-4 print:p-2">
+              <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Interfold Napkins</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-38gsm/quilted 2ply 16-20gsm); 1/2fold,
@@ -390,12 +403,16 @@ export default function ProductCatalog() {
       </div>
 
       {/* Footer */}
-      <div className="bg-navy-800 text-white py-6 px-6 text-center mt-8 print:mt-4 print:py-4">
-        <p className="text-gray-100 print:text-sm">Contact us: sales@oceanwide.ltd | +1(86)15613255335</p>
-        <p className="text-gray-100 mt-2 print:text-sm">© {new Date().getFullYear()} OceanWide. All rights reserved.</p>
+      <div className="bg-navy-800 text-white py-6 px-6 text-center mt-8 print:mt-4 print:py-4 print:bg-navy-800">
+        <p className="text-gray-100 print:text-sm print:text-gray-100">
+          Contact us: sales@oceanwide.ltd | +1(86)15613255335
+        </p>
+        <p className="text-gray-100 mt-2 print:text-sm print:text-gray-100">
+          © {new Date().getFullYear()} OceanWide. All rights reserved.
+        </p>
       </div>
 
-      {/* Print-specific styles */}
+      {/* Print-specific styles - enhanced */}
       <style jsx global>{`
         @media print {
           @page {
@@ -427,11 +444,13 @@ export default function ProductCatalog() {
             display: grid;
             grid-template-columns: 1fr 1fr;
             column-gap: 1cm;
+            row-gap: 1cm;
           }
           
           /* Ensure proper page breaks */
           .print\\:break-inside-avoid {
             break-inside: avoid;
+            page-break-inside: avoid;
           }
           
           /* Adjust colors for print */
@@ -448,10 +467,47 @@ export default function ProductCatalog() {
             border-color: #fbbf24 !important;
           }
           
-          /* Ensure images print properly */
+          /* Ensure images print properly with high quality */
           img {
             max-width: 100%;
             max-height: 100%;
+            image-resolution: 300dpi;
+            image-rendering: crisp-edges;
+          }
+          
+          /* Better text rendering for print */
+          * {
+            text-rendering: optimizeLegibility;
+          }
+          
+          /* Add page numbers */
+          .container {
+            position: relative;
+          }
+          
+          .container::after {
+            content: counter(page);
+            position: absolute;
+            bottom: -2cm;
+            right: 0.5cm;
+            font-size: 10pt;
+          }
+          
+          /* Equal height product cards */
+          .print\\:grid-cols-2 > div {
+            height: 16cm;
+            overflow: hidden;
+          }
+          
+          /* Better headings in print */
+          h2 {
+            break-after: avoid;
+            page-break-after: avoid;
+          }
+          
+          /* Improved section spacing */
+          .print\\:w-full {
+            margin-top: 1cm;
           }
         }
       `}</style>
