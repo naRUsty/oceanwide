@@ -59,6 +59,48 @@ export default function ProductCatalog() {
 
           {/* Products in a grid that becomes two columns in print */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 print:grid-cols-2 print:gap-4">
+            {/* Hardwound Towels */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
+                <Image
+                  src="/hardwound-towels-updated.jpg"
+                  width={400}
+                  height={400}
+                  alt="Hardwound Towels"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
+                />
+              </div>
+              <div className="p-4 print:p-2 flex-grow">
+                <h3 className="text-xl font-bold text-navy-700 print:text-lg">Hardwound Towels</h3>
+                <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
+                  Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
+                  32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 7.76/8/10"*600/800ft
+                  (197/203/254mm*183/243.8m), core3.8/4/4.2/5.1cm, y cut/1 cut, with plastic tub.
+                </p>
+              </div>
+            </div>
+
+            {/* Center Pull Towels */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
+              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
+                <Image
+                  src="/center-pull-towels-3.jpg"
+                  width={400}
+                  height={400}
+                  alt="Center Pull Towels"
+                  className="w-full h-full object-cover print:object-contain print-optimize"
+                />
+              </div>
+              <div className="p-4 print:p-2 flex-grow">
+                <h3 className="text-xl font-bold text-navy-700 print:text-lg">Center Pull Towels</h3>
+                <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
+                  Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
+                  32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); width7.28/7.87/8"*length10"
+                  (185/200/203mm*254mm), 600/720/800sheets, core5.1/6/7.6cm.
+                </p>
+              </div>
+            </div>
+
             {/* N-Fold Towels */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
@@ -84,7 +126,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/singlefold-towels-new.jpg"
+                  src="/singlefold-towels-updated.jpg"
                   width={400}
                   height={400}
                   alt="Singlefold Towels"
@@ -96,48 +138,6 @@ export default function ProductCatalog() {
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
                   32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 1/2fold, 9"*10.23"(230mm*260mm)
-                </p>
-              </div>
-            </div>
-
-            {/* Hardwound Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
-              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
-                <Image
-                  src="/hardwound-towels-new.jpg"
-                  width={400}
-                  height={400}
-                  alt="Hardwound Towels"
-                  className="w-full h-full object-cover print:object-contain print-optimize"
-                />
-              </div>
-              <div className="p-4 print:p-2 flex-grow">
-                <h3 className="text-xl font-bold text-navy-700 print:text-lg">Hardwound Towels</h3>
-                <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
-                  Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                  32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 7.76/8/10"*600/800ft
-                  (197/203/254mm*183/243.8m), core3.8/4/4.2/5.1cm, y cut/1 cut, with plastic tub.
-                </p>
-              </div>
-            </div>
-
-            {/* Center Pull Towels */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
-              <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
-                <Image
-                  src="/center-pull-towels-bulk.jpg"
-                  width={400}
-                  height={400}
-                  alt="Center Pull Towels"
-                  className="w-full h-full object-cover print:object-contain print-optimize"
-                />
-              </div>
-              <div className="p-4 print:p-2 flex-grow">
-                <h3 className="text-xl font-bold text-navy-700 print:text-lg">Center Pull Towels</h3>
-                <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
-                  Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                  32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); width7.28/7.87/8"*length10"
-                  (185/200/203mm*254mm), 600/720/800sheets, core5.1/6/7.6cm.
                 </p>
               </div>
             </div>
@@ -324,7 +324,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/dinner-napkins-new.jpg"
+                  src="/dinner-napkins-updated.jpg"
                   width={400}
                   height={400}
                   alt="Dinner Napkins(1)"
@@ -344,7 +344,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/dinner-napkins-2.jpg"
+                  src="/dinner-napkins-2-updated.jpg"
                   width={400}
                   height={400}
                   alt="Dinner Napkins(2)"
@@ -383,15 +383,15 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/interfold-napkins-new.jpg"
+                  src="/v-fold-napkins-new.jpg"
                   width={400}
                   height={400}
-                  alt="Interfold Napkins"
+                  alt="V-Fold Napkins"
                   className="w-full h-full object-cover print:object-contain print-optimize"
                 />
               </div>
               <div className="p-4 print:p-2 flex-grow">
-                <h3 className="text-xl font-bold text-navy-700 print:text-lg">Interfold Napkins</h3>
+                <h3 className="text-xl font-bold text-navy-700 print:text-lg">V-Fold Napkins</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   Details: Virgin(white, 1ply 32-38gsm/quilted 2ply 16-20gsm); 1/2fold,
                   7.87/8.27/8,86"*6.3/6.5"(200/210/225mm*160/165mm)

@@ -130,7 +130,7 @@ export default function Home() {
                   <ImageCarousel
                     images={[
                       { src: "/factory-interior.png", alt: "Modern tissue manufacturing facility" },
-                      { src: "/dinner-napkins-new.jpg", alt: "Premium Dinner Napkins" },
+                      { src: "/dinner-napkins-updated.jpg", alt: "Premium Dinner Napkins" },
                       { src: "/toilet-paper-rolls-new.jpg", alt: "Premium Toilet Paper Rolls" },
                       { src: "/paper-towels.jpg", alt: "Premium Paper Towels" },
                     ]}
@@ -190,6 +190,52 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
+                          src="/hardwound-towels-updated.jpg"
+                          width={240}
+                          height={240}
+                          alt="Hardwound Towels"
+                          className="rounded-lg product-image"
+                        />
+                      </div>
+                      <div className="flex-grow flex flex-col mt-4">
+                        <h3 className="text-xl font-bold text-amber-100">Hardwound Towels</h3>
+                        <p className="text-sm text-gray-100 mt-2 mb-3">
+                          Durable hardwound roll towels designed for high-volume environments requiring continuous and
+                          efficient hand drying.
+                        </p>
+                        <p className="text-xs text-amber-200 mt-3 leading-normal">
+                          Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
+                          32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 7.76/8/10"*600/800ft
+                          (197/203/254mm*183/243.8m), core3.8/4/4.2/5.1cm, y cut/1 cut, with plastic tub.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-col h-full group">
+                      <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
+                        <Image
+                          src="/center-pull-towels-3.jpg"
+                          width={240}
+                          height={240}
+                          alt="Center Pull Towels"
+                          className="rounded-lg product-image"
+                        />
+                      </div>
+                      <div className="flex-grow flex flex-col mt-4">
+                        <h3 className="text-xl font-bold text-amber-100">Center Pull Towels</h3>
+                        <p className="text-sm text-gray-100 mt-2 mb-3">
+                          Convenient center-pull towel rolls for high-traffic areas, providing easy dispensing and
+                          reduced waste in commercial settings.
+                        </p>
+                        <p className="text-xs text-amber-200 mt-3 leading-normal">
+                          Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
+                          32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); width7.28/7.87/8"*length10"
+                          (185/200/203mm*254mm), 600/720/800sheets, core5.1/6/7.6cm.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-col h-full group">
+                      <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
+                        <Image
                           src="/n-fold-towels-new.jpg"
                           width={240}
                           height={240}
@@ -213,7 +259,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/singlefold-towels-new.jpg"
+                          src="/singlefold-towels-updated.jpg"
                           width={240}
                           height={240}
                           alt="Singlefold Towels"
@@ -235,56 +281,10 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/hardwound-towels-new.jpg"
-                          width={240}
-                          height={240}
-                          alt="Hardwound Towels"
-                          className="rounded-lg product-image"
-                        />
-                      </div>
-                      <div className="flex-grow flex flex-col mt-4">
-                        <h3 className="text-xl font-bold text-amber-100">Hardwound Towels</h3>
-                        <p className="text-sm text-gray-100 mt-2 mb-3">
-                          Durable hardwound roll towels designed for high-volume environments requiring continuous and
-                          efficient hand drying.
-                        </p>
-                        <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                          32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 7.76/8/10"*600/800ft
-                          (197/203/254mm*183/243.8m), core3.8/4/4.2/5.1cm, y cut/1 cut, with plastic tub.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex flex-col h-full group">
-                      <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
-                        <Image
-                          src="/center-pull-towels-bulk.jpg"
-                          width={240}
-                          height={240}
-                          alt="Center Pull Towels"
-                          className="rounded-lg product-image"
-                        />
-                      </div>
-                      <div className="flex-grow flex flex-col mt-4">
-                        <h3 className="text-xl font-bold text-amber-100">Center Pull Towels</h3>
-                        <p className="text-sm text-gray-100 mt-2 mb-3">
-                          Convenient center-pull towel rolls for high-traffic areas, providing easy dispensing and
-                          reduced waste in commercial settings.
-                        </p>
-                        <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                          32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); width7.28/7.87/8"*length10"
-                          (185/200/203mm*254mm), 600/720/800sheets, core5.1/6/7.6cm.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex flex-col h-full group">
-                      <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
-                        <Image
                           src="/4-fold-towels-new.jpg"
                           width={240}
                           height={240}
-                          alt="4-Fold Quilted Towels"
+                          alt="4-Fold Towels"
                           className="rounded-lg product-image"
                         />
                       </div>
@@ -468,7 +468,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/dinner-napkins-new.jpg"
+                          src="/dinner-napkins-updated.jpg"
                           width={240}
                           height={240}
                           alt="Premium Dinner Napkins"
@@ -490,7 +490,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/dinner-napkins-2.jpg"
+                          src="/dinner-napkins-2-updated.jpg"
                           width={240}
                           height={240}
                           alt="Premium White Dinner Napkins"
@@ -533,15 +533,15 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/interfold-napkins-new.jpg"
+                          src="/v-fold-napkins-new.jpg"
                           width={240}
                           height={240}
-                          alt="Interfold Napkins"
+                          alt="V-Fold Napkins"
                           className="rounded-lg product-image"
                         />
                       </div>
                       <div className="flex-grow flex flex-col mt-4">
-                        <h3 className="text-xl font-bold text-amber-100">Interfold Napkins</h3>
+                        <h3 className="text-xl font-bold text-amber-100">V-Fold Napkins</h3>
                         <p className="text-sm text-gray-100 mt-2 mb-3">
                           Space-saving V-fold napkins designed for efficient dispensing in restaurants, cafes, and food
                           service establishments.
