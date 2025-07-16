@@ -227,9 +227,8 @@ export default function Home() {
                           reduced waste in commercial settings.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                          32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); width7.28/7.87/8"*length10"
-                          (185/200/203mm*254mm), 600/720/800sheets, core5.1/6/7.6cm.
+                          Convenient center-pull towel rolls for high-traffic areas, providing easy dispensing and
+                          reduced waste in commercial settings.
                         </p>
                       </div>
                     </div>
@@ -273,8 +272,8 @@ export default function Home() {
                           high-traffic restrooms.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                          32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 1/2fold, 9"*10.23"(230mm*260mm)
+                          Economical singlefold paper towels offering reliable performance and cost-effectiveness for
+                          high-traffic restrooms.
                         </p>
                       </div>
                     </div>
@@ -361,9 +360,6 @@ export default function Home() {
                         <p className="text-sm text-gray-100 mt-2 mb-3">
                           Strong and absorbent kitchen towels perfect for food preparation, cleaning, and spill
                           management in commercial kitchens.
-                        </p>
-                        <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 12.5-16gsm); 2ply, other details based on customer requirements.
                         </p>
                       </div>
                     </div>

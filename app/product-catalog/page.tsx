@@ -94,9 +94,8 @@ export default function ProductCatalog() {
               <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Center Pull Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
-                  Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                  32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); width7.28/7.87/8"*length10"
-                  (185/200/203mm*254mm), 600/720/800sheets, core5.1/6/7.6cm.
+                  Convenient center-pull towel rolls for high-traffic areas, providing easy dispensing and reduced waste
+                  in commercial settings.
                 </p>
               </div>
             </div>
@@ -136,8 +135,8 @@ export default function ProductCatalog() {
               <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Singlefold Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
-                  Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                  32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 1/2fold, 9"*10.23"(230mm*260mm)
+                  Economical singlefold paper towels offering reliable performance and cost-effectiveness for
+                  high-traffic restrooms.
                 </p>
               </div>
             </div>
@@ -217,7 +216,8 @@ export default function ProductCatalog() {
               <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Kitchen Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
-                  Details: Virgin(white, 12.5-16gsm); 2ply, other details based on customer requirements.
+                  Strong and absorbent kitchen towels perfect for food preparation, cleaning, and spill management in
+                  commercial kitchens.
                 </p>
               </div>
             </div>
