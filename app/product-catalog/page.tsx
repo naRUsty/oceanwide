@@ -63,7 +63,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/hardwound-towels-updated.jpg"
+                  src="/hardwound-towels-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="Hardwound Towels"
@@ -84,7 +84,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/center-pull-towels-3.jpg"
+                  src="/center-pull-towels-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="Center Pull Towels"
@@ -104,7 +104,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/n-fold-towels-new.jpg"
+                  src="/n-fold-towels-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="N-Fold Towels"
@@ -125,7 +125,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/singlefold-towels-updated.jpg"
+                  src="/singlefold-towels-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="Singlefold Towels"
@@ -145,7 +145,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/4-fold-towels-new.jpg"
+                  src="/4-fold-towels-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="4-Fold Towels"
@@ -166,7 +166,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/5-fold-towels-new.jpg"
+                  src="/5-fold-towels-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="5-Fold Towels"
@@ -186,7 +186,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/c-fold-towels-new.jpg"
+                  src="/c-fold-towels-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="C-Fold Towels"
@@ -206,7 +206,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/standing-paper-towel-roll.png"
+                  src="/kitchen-towels-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="Kitchen Towels"
@@ -226,7 +226,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/disposable-bed-sheets-new.png"
+                  src="/disposable-bed-sheets-roll-new.jpg"
                   width={400}
                   height={400}
                   alt="Disposable Bed Sheets"
@@ -255,7 +255,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/toilet-paper-rolls-new.jpg"
+                  src="/toilet-paper-rolls-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="Toilet Paper Rolls"
@@ -275,7 +275,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/jumbo-toilet-rolls-new.jpg"
+                  src="/jumbo-toilet-rolls-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="Jumbo Toilet Rolls"
@@ -324,7 +324,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/dinner-napkins-updated.jpg"
+                  src="/dinner-napkins-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="Dinner Napkins(1)"
@@ -344,7 +344,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/dinner-napkins-2-updated.jpg"
+                  src="/dinner-napkins-2-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="Dinner Napkins(2)"
@@ -363,7 +363,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/lunch-napkins-new.jpg"
+                  src="/lunch-napkins-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="Lunch Napkins"
@@ -373,8 +373,8 @@ export default function ProductCatalog() {
               <div className="p-4 print:p-2 flex-grow">
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Lunch Napkins</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
-                  Details: Virgin(white, 16-20gsm); 2ply, 1/4fold, 11.81"*11.81"(300mm*300mm) or
-                  15.75"*15.75"(400mm*400mm)
+                  Practical medium-sized napkins perfect for cafes, lunch restaurants, and casual dining
+                  settings with reliable performance.
                 </p>
               </div>
             </div>
@@ -383,7 +383,7 @@ export default function ProductCatalog() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 print:break-inside-avoid print:mb-4 print:shadow-none print:border-navy-200 flex flex-col h-full">
               <div className="h-64 overflow-hidden print:h-48 flex items-center justify-center bg-gray-50">
                 <Image
-                  src="/v-fold-napkins-new.jpg"
+                  src="/v-fold-napkins-dispensing.jpg"
                   width={400}
                   height={400}
                   alt="V-Fold Napkins"
@@ -451,6 +451,7 @@ export default function ProductCatalog() {
           .print\\:break-inside-avoid {
             break-inside: avoid;
             page-break-inside: avoid;
+            page-break-after: avoid;
           }
           
           /* Adjust colors for print */

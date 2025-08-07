@@ -4,7 +4,7 @@ import type React from "react"
 
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, CheckCircle, Mail, MapPin, Phone } from "lucide-react"
+import { ArrowRight, CheckCircle, Mail, MapPin, Phone } from 'lucide-react'
 
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -190,7 +190,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/hardwound-towels-updated.jpg"
+                          src="/hardwound-towels-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="Hardwound Towels"
@@ -213,7 +213,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/center-pull-towels-3.jpg"
+                          src="/center-pull-towels-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="Center Pull Towels"
@@ -235,7 +235,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/n-fold-towels-new.jpg"
+                          src="/n-fold-towels-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="N-Fold Towels"
@@ -258,7 +258,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/singlefold-towels-updated.jpg"
+                          src="/singlefold-towels-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="Singlefold Towels"
@@ -280,7 +280,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/4-fold-towels-new.jpg"
+                          src="/4-fold-towels-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="4-Fold Towels"
@@ -303,7 +303,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/5-fold-towels-new.jpg"
+                          src="/5-fold-towels-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="5-Fold Towels"
@@ -325,7 +325,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/c-fold-towels-new.jpg"
+                          src="/c-fold-towels-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="C-Fold Towels"
@@ -348,7 +348,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/standing-paper-towel-roll.png"
+                          src="/kitchen-towels-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="Kitchen Towels"
@@ -366,7 +366,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/disposable-bed-sheets-new.png"
+                          src="/disposable-bed-sheets-roll-new.jpg"
                           width={240}
                           height={240}
                           alt="Disposable Bed Sheets with Massage Table"
@@ -393,7 +393,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/toilet-paper-rolls-new.jpg"
+                          src="/toilet-paper-rolls-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="Premium Toilet Paper Rolls"
@@ -415,7 +415,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/jumbo-toilet-rolls-new.jpg"
+                          src="/jumbo-toilet-rolls-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="Jumbo Toilet Paper Rolls"
@@ -464,7 +464,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/dinner-napkins-updated.jpg"
+                          src="/dinner-napkins-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="Premium Dinner Napkins"
@@ -486,7 +486,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/dinner-napkins-2-updated.jpg"
+                          src="/dinner-napkins-2-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="Premium White Dinner Napkins"
@@ -507,7 +507,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/lunch-napkins-new.jpg"
+                          src="/lunch-napkins-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="Lunch Napkins"
@@ -529,7 +529,7 @@ export default function Home() {
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/v-fold-napkins-new.jpg"
+                          src="/v-fold-napkins-dispensing.jpg"
                           width={240}
                           height={240}
                           alt="V-Fold Napkins"
