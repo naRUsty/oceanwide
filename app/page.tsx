@@ -1,10 +1,12 @@
 "use client"
 
 import type React from "react"
+// Remove the incorrect import
+//- import { alt } from "some-module"
 
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, CheckCircle, Mail, MapPin, Phone } from 'lucide-react'
+import { ArrowRight, CheckCircle, Mail, MapPin, Phone } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -79,7 +81,7 @@ export default function Home() {
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
-                viewBox="0 0 24 24"
+                viewBox="0 0 24 0 24"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
@@ -130,9 +132,15 @@ export default function Home() {
                   <ImageCarousel
                     images={[
                       { src: "/factory-interior.png", alt: "Modern tissue manufacturing facility" },
-                      { src: "/dinner-napkins-updated.jpg", alt: "Premium Dinner Napkins" },
-                      { src: "/toilet-paper-rolls-new.jpg", alt: "Premium Toilet Paper Rolls" },
-                      { src: "/paper-towels.jpg", alt: "Premium Paper Towels" },
+                      {
+                        src: "/center-pull-towels-dispensing.jpg",
+                        alt: "Center Pull Towels - Premium dispensing solution",
+                      },
+                      {
+                        src: "/toilet-paper-rolls-dispensing.jpg",
+                        alt: "Premium Toilet Paper Rolls - Commercial quality",
+                      },
+                      { src: "/dinner-napkins-dispensing.jpg", alt: "Dinner Napkins(1) - Restaurant quality napkins" },
                     ]}
                     interval={5000}
                     className="h-full"
@@ -204,9 +212,17 @@ export default function Home() {
                           efficient hand drying.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                          32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 7.76/8/10"*600/800ft
-                          (197/203/254mm*183/243.8m), core3.8/4/4.2/5.1cm, y cut/1 cut, with plastic tub.
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">
+                            Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
+                            32-42gsm/2ply quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                          </span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">
+                            7.8/8/10"*600/800ft (197/203/254mm*183/244m); core3.8/4/4.2/5.1cm; Y cut/1 cut; in plastic
+                            tub.
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -227,8 +243,17 @@ export default function Home() {
                           reduced waste in commercial settings.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Convenient center-pull towel rolls for high-traffic areas, providing easy dispensing and
-                          reduced waste in commercial settings.
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">
+                            Virgin(white, 1ply 19-38gsm/2ply quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
+                            19-38gsm/2ply quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                          </span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">
+                            width 7.3/7.9/8"* length 10"(185/200/203mm*254mm), perforated in 600/700/800 sheets; core
+                            5.1/6/7.6cm
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -249,9 +274,14 @@ export default function Home() {
                           washrooms and high-traffic facilities.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                          32-42gsm/2ply-quilted 16-20gsm)/TAD(white, 1ply 28gsm); 1/3fold,
-                          9/9.25"8.86"/9"/9.25"(230/240mm225/230/235mm)
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">
+                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
+                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                          </span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">1/3fold, 9/9.4"*8.9/9/9.3"(230/240mm*225/230/235mm)</span>
                         </p>
                       </div>
                     </div>
@@ -272,8 +302,16 @@ export default function Home() {
                           high-traffic restrooms.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Economical singlefold paper towels offering reliable performance and cost-effectiveness for
-                          high-traffic restrooms.
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">
+                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
+                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                          </span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">
+                            1/2fold, 9.1"*8.3/8.6/9.6/10.2"(230mm*210/225/245/260mm)
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -294,9 +332,14 @@ export default function Home() {
                           hospitality facilities.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                          32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 1/4fold, 9.25"*8.86/9/9.25"
-                          (240mm*225/230/235mm)
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">
+                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
+                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                          </span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">1/4fold, 9.4"*8.9/9.1/9.3"(240mm*225/230/235mm)</span>
                         </p>
                       </div>
                     </div>
@@ -317,8 +360,14 @@ export default function Home() {
                           commercial environments.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                          32-42gsm/2ply quilted 16-20gsm)/TAD(white, 1ply 28gsm); 1/5fold, 9.84"*7.48"(250mm*190mm)
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">
+                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
+                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                          </span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">1/5fold, 9.8"*7.5"(250mm*190mm)</span>
                         </p>
                       </div>
                     </div>
@@ -339,9 +388,14 @@ export default function Home() {
                           commercial washrooms.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm)/Recycled(white/kraft/blue, 1ply
-                          32-42gsm/2ply-quilted 16-20gsm)/TAD(white, 1ply 28gsm); 10"*11.02"/12"/13"
-                          (255mm280/305/330mm)
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">
+                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
+                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                          </span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">10"*11/12/13"(255mm*280/305/330mm)</span>
                         </p>
                       </div>
                     </div>
@@ -360,6 +414,13 @@ export default function Home() {
                         <p className="text-sm text-gray-100 mt-2 mb-3">
                           Strong and absorbent kitchen towels perfect for food preparation, cleaning, and spill
                           management in commercial kitchens.
+                        </p>
+                        <p className="text-xs text-amber-200 mt-3 leading-normal">
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">Virgin(white, 2ply 15-23gsm)</span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">Other details based on customer requirements</span>
                         </p>
                       </div>
                     </div>
@@ -380,8 +441,13 @@ export default function Home() {
                           hospitality applications offering superior hygiene.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 42gsm/2ply-glued 20gsm); width37cm*length49cm, perforated in
-                          135sheets, core45mm.
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">Virgin(white, 1ply 42gsm/2ply-quilted 20gsm)</span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">
+                            width 14.6"*length 19.3"(370mm*490mm), perforated in 135 sheets, core 45mm
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -407,8 +473,16 @@ export default function Home() {
                           commercial facilities.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 12.5-15gsm)/Recycled(white/kraft/blue, 12.5-15gsm); 2ply/4ply,
-                          width4"*length3.75"(102mm*95mm), 450/550/600/1000sheets, core 1.9cm(small core)/4/4.2cm.
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">
+                            Virgin(white, 2/4ply, 12.5-15gsm); Recycled(white/kraft/blue, 2/4ply 12.5-15gsm)
+                          </span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">
+                            width 4"*length 3.7"(102mm*95mm), perforated in 450/550/600/1000sheets, core 1.9cm(small
+                            core)/4/4.2cm
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -429,18 +503,25 @@ export default function Home() {
                           facilities with extended use.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 12.5-15gsm)/Recycled(white/kraft/blue, 12.5-15gsm); 2ply,
-                          3.3/3.5"(84mm/89mm)*600/800/1000', core 1.9cm(small core)/7.6/8.4cm.
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">
+                            Virgin(white, 2ply 12.5-15gsm); Recycled(white/kraft/blue, 2ply 12.5-15gsm)
+                          </span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">
+                            3.3/3.5"(84mm/89mm)*600/800/1000', core 1.9cm(small core)/7.6/8.4cm
+                          </span>
                         </p>
                       </div>
                     </div>
                     <div className="flex flex-col h-full group">
                       <div className="flex-none h-[240px] flex items-center justify-center rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-2 shadow-md group-hover:shadow-lg transition-all overflow-hidden">
                         <Image
-                          src="/facial-tissues-dual-black-bg.jpg"
+                          src="/facial-tissues-dispensing.jpg"
                           width={240}
                           height={240}
-                          alt="Mint Green Facial Tissue Box"
+                          alt="Facial Tissue"
                           className="rounded-lg product-image"
                         />
                       </div>
@@ -451,8 +532,13 @@ export default function Home() {
                           and commercial settings.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 16-36gsm); 2ply, 1/2fold, 7.87"*7.48"(200mm*190mm), 100sheets, in case
-                          or plastic
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">Virgin(white, 2ply 16-36gsm)</span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">
+                            1/2fold, 7.9"*7.5"(200mm*190mm), 100sheets, in case or plastic
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -478,8 +564,13 @@ export default function Home() {
                           colors and designs.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 12.5-16gsm); 2ply, 1/8fold, 14.17/14.96"*16.54"(360/380mm*420mm), or
-                          16.93"*16.93"(430mm*430mm)
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">Virgin(white, 2ply 12.5-16gsm)</span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">
+                            1/8fold, 14.2/15"*16.5"(360/380mm*420mm), or 16.9"*16.9"(430mm*430mm)
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -500,7 +591,11 @@ export default function Home() {
                           establishments and events.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 16-20gsm); 2ply, 1/8fold, 15.75"*15.75"(400mm*400mm)
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">Virgin(white, 2ply 16-20gsm)</span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">1/8fold, 15.7"*15.7"(400mm*400mm)</span>
                         </p>
                       </div>
                     </div>
@@ -521,8 +616,13 @@ export default function Home() {
                           settings with reliable performance.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 16-20gsm); 2ply, 1/4fold, 11.81"*11.81"(300mm*300mm) or
-                          15.75"*15.75"(400mm*400mm)
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">Virgin(white, 2ply 16-20gsm)</span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">
+                            1/4fold, 11.8"*11.8"(300mm*300mm) or 15.7"*15.7"(400mm*400mm)
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -543,8 +643,11 @@ export default function Home() {
                           service establishments.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
-                          Details: Virgin(white, 1ply 32-38gsm/quilted 2ply 16-20gsm); 1/2fold,
-                          7.87/8.27/8,86"*6.3/6.5"(200/210/225mm*160/165mm)
+                          <span className="font-semibold text-amber-300">Material:</span>{" "}
+                          <span className="text-gray-200">Virgin(white, 1ply 32-38gsm/quilted 2ply 16-20gsm)</span>
+                          <br />
+                          <span className="font-semibold text-amber-300">Details:</span>{" "}
+                          <span className="text-gray-200">1/2fold, 7.9/8.3/8.9"*6.3/6.5"(200/210/225mm*160/165mm)</span>
                         </p>
                       </div>
                     </div>
