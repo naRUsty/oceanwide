@@ -12,7 +12,7 @@ const pacifico = Pacifico({
 })
 
 export const metadata = {
-  title: "OceanWide - Premium Tissue & Paper Products",
+  title: "VisionPaper - Premium Tissue & Paper Products",
   description: "Your trusted partner for high-quality tissue and toilet paper products.",
   themeColor: "#FBB305",
   icons: {

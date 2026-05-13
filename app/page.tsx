@@ -773,7 +773,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-amber-100">Email</h3>
-                      <p className="text-sm text-gray-100">sales@oceanwide.ltd</p>
+                      <p className="text-sm text-gray-100">sales@visionpaper.ltd</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">

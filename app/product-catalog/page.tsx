@@ -487,10 +487,10 @@ export default function ProductCatalog() {
       {/* Footer */}
       <div className="bg-navy-800 text-white py-6 px-6 text-center mt-8 print:mt-4 print:py-4 print:bg-navy-800">
         <p className="text-gray-100 print:text-sm print:text-gray-100">
-          Contact us: sales@oceanwide.ltd | +1(86)15613255335
+          Contact us: sales@visionpaper.ltd | +1(86)15613255335
         </p>
         <p className="text-gray-100 mt-2 print:text-sm print:text-gray-100">
-          © {new Date().getFullYear()} OceanWide. All rights reserved.
+          © {new Date().getFullYear()} VisionPaper. All rights reserved.
         </p>
       </div>
 
