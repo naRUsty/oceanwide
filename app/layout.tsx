@@ -1,14 +1,14 @@
 import "@/app/globals.css"
 
-import { Inter, Dancing_Script } from "next/font/google"
+import { Inter, Pacifico } from "next/font/google"
 
 import { ScrollToSection } from "@/components/scroll-to-section"
 
 const inter = Inter({ subsets: ["latin"] })
-const dancingScript = Dancing_Script({
+const pacifico = Pacifico({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-dancing",
+  variable: "--font-pacifico",
 })
 
 export const metadata = {
@@ -24,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" style={{ scrollBehavior: "smooth" }}>
-      <body className={`${inter.className} ${dancingScript.variable}`}>
+      <body className={`${inter.className} ${pacifico.variable}`}>
         <ScrollToSection />
         {children}
       </body>
