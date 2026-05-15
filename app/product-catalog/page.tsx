@@ -75,13 +75,13 @@ export default function ProductCatalog() {
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
                   <span className="text-gray-700">
-                    Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm); Recycled(white/kraft/blue, 1ply 32-42gsm/2ply
-                    quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                    Virgin (white, 1ply 32-42gsm/2ply quilted 16-20gsm); Recycled (white/kraft/blue, 1ply 32-42gsm/2ply
+                    quilted 16-20gsm); TAD (white, 1ply 28gsm)
                   </span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
                   <span className="text-gray-700">
-                    7.8/8/10"*600/800ft (197/203/254mm*183/244m); core3.8/4/4.2/5.1cm; Y cut/1 cut; in plastic tub.
+                    7.8/8/10"*600/800' (197/203/254mm*183/244m); core 3.8/4/4.2/5.1cm; Y cut/1 cut; in plastic tub
                   </span>
                 </p>
               </div>
@@ -103,13 +103,13 @@ export default function ProductCatalog() {
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
                   <span className="text-gray-700">
-                    Virgin(white, 1ply 19-38gsm/2ply quilted 16-20gsm); Recycled(white/kraft/blue, 1ply 19-38gsm/2ply
-                    quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                    Virgin (white, 1ply 19-38gsm/2ply quilted 16-20gsm); Recycled (white/kraft/blue, 1ply 19-38gsm/2ply
+                    quilted 16-20gsm); TAD (white, 1ply 28gsm)
                   </span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
                   <span className="text-gray-700">
-                    width 7.3/7.9/8"* length 10"(185/200/203mm*254mm), perforated in 600/700/800 sheets; core
+                    width 7.3/7.9/8"* length 10" (185/200/203mm*254mm), perforated in 600/700/800 sheets; core
                     5.1/6/7.6cm
                   </span>
                 </p>
@@ -132,12 +132,12 @@ export default function ProductCatalog() {
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
                   <span className="text-gray-700">
-                    Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                    32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                    Virgin (white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled (white/kraft/blue, 1ply 32-42gsm/2ply
+                    quilted 16-20gsm); TAD (white, 1ply 28gsm)
                   </span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
-                  <span className="text-gray-700">1/3fold, 9/9.4"*8.9/9/9.3"(230/240mm*225/230/235mm)</span>
+                  <span className="text-gray-700">1/3 fold, 9/9.4"*8.9/9/9.3"(230/240mm*225/230/235mm)</span>
                 </p>
               </div>
             </div>
@@ -158,12 +158,12 @@ export default function ProductCatalog() {
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
                   <span className="text-gray-700">
-                    Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                    32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                    Virgin (white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled (white/kraft/blue, 1ply 32-42gsm/2ply
+                    quilted 16-20gsm); TAD (white, 1ply 28gsm)
                   </span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
-                  <span className="text-gray-700">1/2fold, 9.1"*8.3/8.6/9.6/10.2"(230mm*210/225/245/260mm)</span>
+                  <span className="text-gray-700">1/2 fold, 9.1"*8.3/8.6/9.6/10.2"(230mm*210/225/245/260mm)</span>
                 </p>
               </div>
             </div>
@@ -184,12 +184,12 @@ export default function ProductCatalog() {
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
                   <span className="text-gray-700">
-                    Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                    32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                    Virgin (white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled (white/kraft/blue, 1ply 32-42gsm/2ply
+                    quilted 16-20gsm); TAD (white, 1ply 28gsm)
                   </span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
-                  <span className="text-gray-700">1/4fold, 9.4"*8.9/9.1/9.3"(240mm*225/230/235mm)</span>
+                  <span className="text-gray-700">1/4 fold, 9.4"*8.9/9.1/9.3"(240mm*225/230/235mm)</span>
                 </p>
               </div>
             </div>
@@ -210,12 +210,12 @@ export default function ProductCatalog() {
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
                   <span className="text-gray-700">
-                    Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                    32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                    Virgin (white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled (white/kraft/blue, 1ply 32-42gsm/2ply
+                    quilted 16-20gsm); TAD (white, 1ply 28gsm)
                   </span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
-                  <span className="text-gray-700">1/5fold, 9.8"*7.5"(250mm*190mm)</span>
+                  <span className="text-gray-700">1/5 fold, 9.8"*7.5"(250mm*190mm)</span>
                 </p>
               </div>
             </div>
@@ -235,13 +235,10 @@ export default function ProductCatalog() {
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">C-Fold Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
-                  <span className="text-gray-700">
-                    Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                    32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
-                  </span>
+                  <span className="text-gray-700">Virgin (white, 1ply 32-38gsm/2ply-quilted 16-20gsm)</span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
-                  <span className="text-gray-700">10"*11/12/13"(255mm*280/305/330mm)</span>
+                  <span className="text-gray-700">1/2 fold, 7.9/8.3/8.9"*6.3/6.5"(200/210/225mm*160/165mm)</span>
                 </p>
               </div>
             </div>
@@ -261,7 +258,7 @@ export default function ProductCatalog() {
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Kitchen Towels</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
-                  <span className="text-gray-700">Virgin(white, 2ply 15-23gsm)</span>
+                  <span className="text-gray-700">Virgin (white, 2ply 15-23gsm)</span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
                   <span className="text-gray-700">Other details based on customer requirements</span>
@@ -284,7 +281,7 @@ export default function ProductCatalog() {
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Disposable Bed Sheets</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
-                  <span className="text-gray-700">Virgin(white, 1ply 42gsm/2ply-quilted 20gsm)</span>
+                  <span className="text-gray-700">Virgin (white, 1ply 42gsm/2ply-quilted 20gsm)</span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
                   <span className="text-gray-700">
@@ -319,7 +316,7 @@ export default function ProductCatalog() {
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
                   <span className="text-gray-700">
-                    Virgin(white, 2/4ply, 12.5-15gsm); Recycled(white/kraft/blue, 2/4ply 12.5-15gsm)
+                    Virgin (white, 2/4ply, 12.5-15gsm); Recycled (white/kraft/blue, 2/4ply 12.5-15gsm)
                   </span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
@@ -347,12 +344,12 @@ export default function ProductCatalog() {
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
                   <span className="text-gray-700">
-                    Virgin(white, 2ply 12.5-15gsm); Recycled(white/kraft/blue, 2ply 12.5-15gsm)
+                    Virgin (white, 2ply 12.5-15gsm); Recycled (white/kraft/blue, 2ply 12.5-15gsm)
                   </span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
                   <span className="text-gray-700">
-                    3.3/3.5"(84mm/89mm)*600/800/1000', core 1.9cm(small core)/7.6/8.4cm
+                    3.3/3.5"*600/800/1000' (84/89mm*183/244/305m), core 1.9cm(small core)/7.6/8.4cm
                   </span>
                 </p>
               </div>
@@ -373,10 +370,10 @@ export default function ProductCatalog() {
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Facial Tissue</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
-                  <span className="text-gray-700">Virgin(white, 2ply 16-36gsm)</span>
+                  <span className="text-gray-700">Virgin (white, 2ply 16-36gsm)</span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
-                  <span className="text-gray-700">1/2fold, 7.9"*7.5"(200mm*190mm), 100sheets, in case or plastic</span>
+                  <span className="text-gray-700">1/2 fold, 7.9"*7.5"(200mm*190mm), 100sheets, in case or plastic</span>
                 </p>
               </div>
             </div>
@@ -405,11 +402,11 @@ export default function ProductCatalog() {
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Dinner Napkins(1)</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
-                  <span className="text-gray-700">Virgin(white, 2ply 12.5-16gsm)</span>
+                  <span className="text-gray-700">Virgin (white, 2ply 12.5-16gsm)</span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
                   <span className="text-gray-700">
-                    1/8fold, 14.2/15"*16.5"(360/380mm*420mm), or 16.9"*16.9"(430mm*430mm)
+                    1/8 fold, 14.2/15"*16.5"(360/380mm*420mm), or 16.9"*16.9"(430mm*430mm)
                   </span>
                 </p>
               </div>
@@ -430,10 +427,10 @@ export default function ProductCatalog() {
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Dinner Napkins(2)</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
-                  <span className="text-gray-700">Virgin(white, 2ply 16-20gsm)</span>
+                  <span className="text-gray-700">Virgin (white, 2ply 16-20gsm)</span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
-                  <span className="text-gray-700">1/8fold, 15.7"*15.7"(400mm*400mm)</span>
+                  <span className="text-gray-700">1/8 fold, 15.7"*15.7"(400mm*400mm)</span>
                 </p>
               </div>
             </div>
@@ -453,10 +450,10 @@ export default function ProductCatalog() {
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">Lunch Napkins</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
-                  <span className="text-gray-700">Virgin(white, 2ply 16-20gsm)</span>
+                  <span className="text-gray-700">Virgin (white, 2ply 16-20gsm)</span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
-                  <span className="text-gray-700">1/4fold, 11.8"*11.8"(300mm*300mm) or 15.7"*15.7"(400mm*400mm)</span>
+                  <span className="text-gray-700">1/4 fold, 11.8"*11.8"(300mm*300mm) or 15.7"*15.7"(400mm*400mm)</span>
                 </p>
               </div>
             </div>
@@ -476,10 +473,10 @@ export default function ProductCatalog() {
                 <h3 className="text-xl font-bold text-navy-700 print:text-lg">V-Fold Napkins</h3>
                 <p className="text-sm text-gray-600 mt-2 print:text-xs print:text-navy-800">
                   <span className="font-semibold text-navy-700">Material:</span>{" "}
-                  <span className="text-gray-700">Virgin(white, 1ply 32-38gsm/quilted 2ply 16-20gsm)</span>
+                  <span className="text-gray-700">Virgin (white, 1ply 32-38gsm/2ply-quilted 16-20gsm)</span>
                   <br />
                   <span className="font-semibold text-navy-700">Details:</span>{" "}
-                  <span className="text-gray-700">1/2fold, 7.9/8.3/8.9"*6.3/6.5"(200/210/225mm*160/165mm)</span>
+                  <span className="text-gray-700">1/2 fold, 7.9/8.3/8.9"*6.3/6.5"(200/210/225mm*160/165mm)</span>
                 </p>
               </div>
             </div>
@@ -490,113 +487,113 @@ export default function ProductCatalog() {
       {/* Footer */}
       <div className="bg-navy-800 text-white py-6 px-6 text-center mt-8 print:mt-4 print:py-4 print:bg-navy-800">
         <p className="text-gray-100 print:text-sm print:text-gray-100">
-          Contact us: sales@oceanwide.ltd | +1(86)15613255335
+          Contact us: gzweizhenpaper@163.com | +1(86)13503049890
         </p>
         <p className="text-gray-100 mt-2 print:text-sm print:text-gray-100">
-          © {new Date().getFullYear()} OceanWide. All rights reserved.
+          © {new Date().getFullYear()} VisionPaper. All rights reserved.
         </p>
       </div>
 
       {/* Print-specific styles - enhanced */}
       <style jsx global>{`
-    @media print {
-      @page {
-        size: A3 portrait;
-        margin: 0.5cm;
-      }
-      
-      html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      
-      body {
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-        color-adjust: exact !important;
-        background-color: white !important;
-      }
-      
-      .print-mode {
-        width: 3508px;
-        height: 4961px;
-      }
-      
-      /* Left-right page layout */
-      .print\\:grid-cols-2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 1cm;
-        row-gap: 1cm;
-      }
-      
-      /* Ensure proper page breaks */
-      .print\\:break-inside-avoid {
-        break-inside: avoid;
-        page-break-inside: avoid;
-        page-break-after: avoid;
-      }
-      
-      /* Adjust colors for print */
-      .bg-navy-800 {
-        background-color: #1e2e47 !important;
-        color: white !important;
-      }
-      
-      .text-amber-100 {
-        color: #fef3c7 !important;
-      }
-      
-      .border-amber-400 {
-        border-color: #fbbf24 !important;
-      }
-      
-      /* Ensure images print properly with high quality */
-      img {
-        max-width: 100%;
-        max-height: 100%;
-        image-resolution: 300dpi;
-        image-rendering: crisp-edges;
-      }
-      
-      /* Better text rendering for print */
-      * {
-        text-rendering: optimizeLegibility;
-      }
-      
-      /* Add page numbers */
-      .container {
-        position: relative;
-      }
-      
-      .container::after {
-        content: counter(page);
-        position: absolute;
-        bottom: -2cm;
-        right: 0.5cm;
-        font-size: 10pt;
-      }
-      
-      /* Equal height product cards */
-      .print\\:grid-cols-2 > div {
-        height: 16cm;
-        overflow: hidden;
-      }
-      
-      /* Better headings in print */
-      h2 {
-        break-after: avoid;
-        page-break-after: avoid;
-      }
-      
-      /* Improved section spacing */
-      .print\\:w-full {
-        margin-top: 1cm;
-      }
-    }
-  `}</style>
+        @media print {
+          @page {
+            size: A3 portrait;
+            margin: 0.5cm;
+          }
+          
+          html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+          
+          body {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+            color-adjust: exact !important;
+            background-color: white !important;
+          }
+          
+          .print-mode {
+            width: 3508px;
+            height: 4961px;
+          }
+          
+          /* Left-right page layout */
+          .print\\:grid-cols-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 1cm;
+            row-gap: 1cm;
+          }
+          
+          /* Ensure proper page breaks */
+          .print\\:break-inside-avoid {
+            break-inside: avoid;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+          }
+          
+          /* Adjust colors for print */
+          .bg-navy-800 {
+            background-color: #1e2e47 !important;
+            color: white !important;
+          }
+          
+          .text-amber-100 {
+            color: #fef3c7 !important;
+          }
+          
+          .border-amber-400 {
+            border-color: #fbbf24 !important;
+          }
+          
+          /* Ensure images print properly with high quality */
+          img {
+            max-width: 100%;
+            max-height: 100%;
+            image-resolution: 300dpi;
+            image-rendering: crisp-edges;
+          }
+          
+          /* Better text rendering for print */
+          * {
+            text-rendering: optimizeLegibility;
+          }
+          
+          /* Add page numbers */
+          .container {
+            position: relative;
+          }
+          
+          .container::after {
+            content: counter(page);
+            position: absolute;
+            bottom: -2cm;
+            right: 0.5cm;
+            font-size: 10pt;
+          }
+          
+          /* Equal height product cards */
+          .print\\:grid-cols-2 > div {
+            height: 16cm;
+            overflow: hidden;
+          }
+          
+          /* Better headings in print */
+          h2 {
+            break-after: avoid;
+            page-break-after: avoid;
+          }
+          
+          /* Improved section spacing */
+          .print\\:w-full {
+            margin-top: 1cm;
+          }
+        }
+      `}</style>
     </div>
   )
 }

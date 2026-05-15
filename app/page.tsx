@@ -81,7 +81,7 @@ export default function Home() {
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
-                viewBox="0 0 24 0 24"
+                viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
@@ -165,7 +165,7 @@ export default function Home() {
                   Discover our comprehensive range of high-quality products for businesses and distributors. Based on
                   our 100% owned factory, we can customize these products not only in sizes, but also in material,
                   perforation, and packaging(material and pattern). Please remember that all the details below are just
-                  for your reference, you can customize your products per your actural needs.
+                  for your reference, you can customize your products per your actual needs.
                 </p>
               </div>
             </div>
@@ -214,14 +214,14 @@ export default function Home() {
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
                           <span className="text-gray-200">
-                            Virgin(white, 1ply 32-42gsm/2ply quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                            32-42gsm/2ply quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                            Virgin (white, 1ply 32-42gsm/2ply quilted 16-20gsm); Recycled (white/kraft/blue, 1ply
+                            32-42gsm/2ply quilted 16-20gsm); TAD (white, 1ply 28gsm)
                           </span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
                           <span className="text-gray-200">
-                            7.8/8/10"*600/800ft (197/203/254mm*183/244m); core3.8/4/4.2/5.1cm; Y cut/1 cut; in plastic
-                            tub.
+                            7.8/8/10"*600/800' (197/203/254mm*183/244m); core 3.8/4/4.2/5.1cm; Y cut/1 cut; in plastic
+                            tub
                           </span>
                         </p>
                       </div>
@@ -245,13 +245,13 @@ export default function Home() {
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
                           <span className="text-gray-200">
-                            Virgin(white, 1ply 19-38gsm/2ply quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                            19-38gsm/2ply quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                            Virgin (white, 1ply 19-38gsm/2ply quilted 16-20gsm); Recycled (white/kraft/blue, 1ply
+                            19-38gsm/2ply quilted 16-20gsm); TAD (white, 1ply 28gsm)
                           </span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
                           <span className="text-gray-200">
-                            width 7.3/7.9/8"* length 10"(185/200/203mm*254mm), perforated in 600/700/800 sheets; core
+                            width 7.3/7.9/8"* length 10" (185/200/203mm*254mm), perforated in 600/700/800 sheets; core
                             5.1/6/7.6cm
                           </span>
                         </p>
@@ -276,12 +276,12 @@ export default function Home() {
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
                           <span className="text-gray-200">
-                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                            Virgin (white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled (white/kraft/blue, 1ply
+                            32-42gsm/2ply-quilted 16-20gsm); TAD (white, 1ply 28gsm)
                           </span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
-                          <span className="text-gray-200">1/3fold, 9/9.4"*8.9/9/9.3"(230/240mm*225/230/235mm)</span>
+                          <span className="text-gray-200">1/3 fold, 9/9.4"*8.9/9/9.3"(230/240mm*225/230/235mm)</span>
                         </p>
                       </div>
                     </div>
@@ -304,13 +304,13 @@ export default function Home() {
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
                           <span className="text-gray-200">
-                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                            Virgin (white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled (white/kraft/blue, 1ply
+                            32-42gsm/2ply-quilted 16-20gsm); TAD (white, 1ply 28gsm)
                           </span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
                           <span className="text-gray-200">
-                            1/2fold, 9.1"*8.3/8.6/9.6/10.2"(230mm*210/225/245/260mm)
+                            1/2 fold, 9.1"*8.3/8.6/9.6/10.2"(230mm*210/225/245/260mm)
                           </span>
                         </p>
                       </div>
@@ -334,12 +334,12 @@ export default function Home() {
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
                           <span className="text-gray-200">
-                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                            Virgin (white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled (white/kraft/blue, 1ply
+                            32-42gsm/2ply-quilted 16-20gsm); TAD (white, 1ply 28gsm)
                           </span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
-                          <span className="text-gray-200">1/4fold, 9.4"*8.9/9.1/9.3"(240mm*225/230/235mm)</span>
+                          <span className="text-gray-200">1/4 fold, 9.4"*8.9/9.1/9.3"(240mm*225/230/235mm)</span>
                         </p>
                       </div>
                     </div>
@@ -362,12 +362,12 @@ export default function Home() {
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
                           <span className="text-gray-200">
-                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
+                            Virgin (white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled (white/kraft/blue, 1ply
+                            32-42gsm/2ply-quilted 16-20gsm); TAD (white, 1ply 28gsm)
                           </span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
-                          <span className="text-gray-200">1/5fold, 9.8"*7.5"(250mm*190mm)</span>
+                          <span className="text-gray-200">1/5 fold, 9.8"*7.5"(250mm*190mm)</span>
                         </p>
                       </div>
                     </div>
@@ -384,18 +384,17 @@ export default function Home() {
                       <div className="flex-grow flex flex-col mt-4">
                         <h3 className="text-xl font-bold text-amber-100">C-Fold Towels</h3>
                         <p className="text-sm text-gray-100 mt-2 mb-3">
-                          High-quality C-fold hand towels designed for efficient dispensing and reliable performance in
-                          commercial washrooms.
+                          Space-saving C-fold napkins designed for efficient dispensing in restaurants, cafes, and food
+                          service establishments.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
-                          <span className="text-gray-200">
-                            Virgin(white, 1ply 32-42gsm/2ply-quilted 16-20gsm); Recycled(white/kraft/blue, 1ply
-                            32-42gsm/2ply-quilted 16-20gsm); TAD(white, 1ply 28gsm)
-                          </span>
+                          <span className="text-gray-200">Virgin (white, 1ply 32-38gsm/2ply-quilted 16-20gsm)</span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
-                          <span className="text-gray-200">10"*11/12/13"(255mm*280/305/330mm)</span>
+                          <span className="text-gray-200">
+                            1/2 fold, 7.9/8.3/8.9"*6.3/6.5"(200/210/225mm*160/165mm)
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -417,7 +416,7 @@ export default function Home() {
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
-                          <span className="text-gray-200">Virgin(white, 2ply 15-23gsm)</span>
+                          <span className="text-gray-200">Virgin (white, 2ply 15-23gsm)</span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
                           <span className="text-gray-200">Other details based on customer requirements</span>
@@ -442,7 +441,7 @@ export default function Home() {
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
-                          <span className="text-gray-200">Virgin(white, 1ply 42gsm/2ply-quilted 20gsm)</span>
+                          <span className="text-gray-200">Virgin (white, 1ply 42gsm/2ply-quilted 20gsm)</span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
                           <span className="text-gray-200">
@@ -475,7 +474,7 @@ export default function Home() {
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
                           <span className="text-gray-200">
-                            Virgin(white, 2/4ply, 12.5-15gsm); Recycled(white/kraft/blue, 2/4ply 12.5-15gsm)
+                            Virgin (white, 2/4ply, 12.5-15gsm); Recycled (white/kraft/blue, 2/4ply 12.5-15gsm)
                           </span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
@@ -505,12 +504,12 @@ export default function Home() {
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
                           <span className="text-gray-200">
-                            Virgin(white, 2ply 12.5-15gsm); Recycled(white/kraft/blue, 2ply 12.5-15gsm)
+                            Virgin (white, 2ply 12.5-15gsm); Recycled (white/kraft/blue, 2ply 12.5-15gsm)
                           </span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
                           <span className="text-gray-200">
-                            3.3/3.5"(84mm/89mm)*600/800/1000', core 1.9cm(small core)/7.6/8.4cm
+                            3.3/3.5"*600/800/1000' (84/89mm*183/244/305m), core 1.9cm(small core)/7.6/8.4cm
                           </span>
                         </p>
                       </div>
@@ -526,18 +525,18 @@ export default function Home() {
                         />
                       </div>
                       <div className="flex-grow flex flex-col mt-4">
-                        <h3 className="text-xl font-bold text-amber-100">Facial Tissue</h3>
+                        <h3 className="font-semibold text-amber-100">Facial Tissue</h3>
                         <p className="text-sm text-gray-100 mt-2 mb-3">
                           Soft and absorbent facial tissues in attractive packaging, ideal for homes, hotels, offices,
                           and commercial settings.
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
-                          <span className="text-gray-200">Virgin(white, 2ply 16-36gsm)</span>
+                          <span className="text-gray-200">Virgin (white, 2ply 16-36gsm)</span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
                           <span className="text-gray-200">
-                            1/2fold, 7.9"*7.5"(200mm*190mm), 100sheets, in case or plastic
+                            1/2 fold, 7.9"*7.5"(200mm*190mm), 100sheets, in case or plastic
                           </span>
                         </p>
                       </div>
@@ -565,11 +564,11 @@ export default function Home() {
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
-                          <span className="text-gray-200">Virgin(white, 2ply 12.5-16gsm)</span>
+                          <span className="text-gray-200">Virgin (white, 2ply 12.5-16gsm)</span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
                           <span className="text-gray-200">
-                            1/8fold, 14.2/15"*16.5"(360/380mm*420mm), or 16.9"*16.9"(430mm*430mm)
+                            1/8 fold, 14.2/15"*16.5"(360/380mm*420mm), or 16.9"*16.9"(430mm*430mm)
                           </span>
                         </p>
                       </div>
@@ -592,10 +591,10 @@ export default function Home() {
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
-                          <span className="text-gray-200">Virgin(white, 2ply 16-20gsm)</span>
+                          <span className="text-gray-200">Virgin (white, 2ply 16-20gsm)</span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
-                          <span className="text-gray-200">1/8fold, 15.7"*15.7"(400mm*400mm)</span>
+                          <span className="text-gray-200">1/8 fold, 15.7"*15.7"(400mm*400mm)</span>
                         </p>
                       </div>
                     </div>
@@ -617,11 +616,11 @@ export default function Home() {
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
-                          <span className="text-gray-200">Virgin(white, 2ply 16-20gsm)</span>
+                          <span className="text-gray-200">Virgin (white, 2ply 16-20gsm)</span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
                           <span className="text-gray-200">
-                            1/4fold, 11.8"*11.8"(300mm*300mm) or 15.7"*15.7"(400mm*400mm)
+                            1/4 fold, 11.8"*11.8"(300mm*300mm) or 15.7"*15.7"(400mm*400mm)
                           </span>
                         </p>
                       </div>
@@ -644,10 +643,12 @@ export default function Home() {
                         </p>
                         <p className="text-xs text-amber-200 mt-3 leading-normal">
                           <span className="font-semibold text-amber-300">Material:</span>{" "}
-                          <span className="text-gray-200">Virgin(white, 1ply 32-38gsm/quilted 2ply 16-20gsm)</span>
+                          <span className="text-gray-200">Virgin (white, 1ply 32-38gsm/2ply-quilted 16-20gsm)</span>
                           <br />
                           <span className="font-semibold text-amber-300">Details:</span>{" "}
-                          <span className="text-gray-200">1/2fold, 7.9/8.3/8.9"*6.3/6.5"(200/210/225mm*160/165mm)</span>
+                          <span className="text-gray-200">
+                            1/2 fold, 7.9/8.3/8.9"*6.3/6.5"(200/210/225mm*160/165mm)
+                          </span>
                         </p>
                       </div>
                     </div>
@@ -763,7 +764,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-amber-100">Phone</h3>
-                      <p className="text-sm text-gray-100">+1(86)15613255335</p>
+                      <p className="text-sm text-gray-100">+1(86)13503049890</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -772,7 +773,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-amber-100">Email</h3>
-                      <p className="text-sm text-gray-100">sales@oceanwide.ltd</p>
+                      <p className="text-sm text-gray-100">gzweizhenpaper@163.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">

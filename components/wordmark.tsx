@@ -12,8 +12,8 @@ export function Wordmark({ size = "md", className = "" }: WordmarkProps) {
 
   return (
     <span className={`font-pacifico tracking-wide ${sizeClasses[size]} ${className}`}>
-      <span className="text-amber-400">Ocean</span>
-      <span className="text-white">Wide</span>
+      <span className="text-amber-400">Vision</span>
+      <span className="text-white">Paper</span>
     </span>
   )
 }

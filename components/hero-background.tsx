@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import Image from "next/image"
 
 export function HeroBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -18,8 +17,8 @@ export function HeroBackground() {
       canvas.width = window.innerWidth
       canvas.height = window.innerHeight
 
-      // Load the image
-      const img = new Image()
+      // Load the image using native HTMLImageElement
+      const img = document.createElement("img")
       img.crossOrigin = "anonymous"
       img.src = "/factory-background.png"
 
