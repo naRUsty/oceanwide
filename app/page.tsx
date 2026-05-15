@@ -764,7 +764,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-amber-100">Phone</h3>
-                      <p className="text-sm text-gray-100">+1(86)15613255335</p>
+                      <p className="text-sm text-gray-100">+1(86)13503049890</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -773,7 +773,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-amber-100">Email</h3>
-                      <p className="text-sm text-gray-100">sales@visionpaper.ltd</p>
+                      <p className="text-sm text-gray-100">gzweizhenpaper@163.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
